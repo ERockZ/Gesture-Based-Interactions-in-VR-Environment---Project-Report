@@ -1,0 +1,77 @@
+y\section{Discussion}
+
+Overall the system achieves an acceptable level of usability with an average SUS scoring of 61.83 under the condition LEAP and  70.83 for the condition Android respectively.
+\cite{sus_gov} established a general mean SUS score of 68 for systems based on an analysis of 1300 publications.
+According on this analysis systems scoring an SUS higher than 68 could be considered above average.
+%A system usability should be 68 or above according to https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html
+At first glance comparison of the two conditions by SUS and NASA-TLX score doesn't yield a strong winner of one over the other.
+On the basis of the reported NASA-TLX responses most participants did not find it particularly easy to accomplish the task under either condition.
+For the few participants that seemingly had a clear preference though (see figure \ref{fig:sus_nasatlx_response}; participants 6, 12, 13 \& 14) it was towards the Android-system.
+Almost never did participants lean towards the LEAP-system even mildly (participants 9 \& 10).
+The SUS scoring presents a similar picture with a slight preference for the Android-system (see figure \ref{fig:sus_nasatlx_response}; participants 1, 5, 6, 10, 11 \& 13).
+These observations ultimately express themselves in a higher overall average SUS score of 70.83 for the Android system.
+Interestingly this seems contrary to the responses of many participants who, when asked which system they felt was more \textit{fun} to use or which system they in general preferred over the other chose the LEAP system.
+This may be explained by the more intuitive handling of the LEAP system, relying on interactive gestures already attuned to from real world interactions.
+Especially considering the high amount of people without prior experience with interactive VR systems a default preference towards the system which emulates the type of interaction already known seems plausible.
+
+Apart from the user experience we were also interested in the accuracies that would generally be achieved under each system condition.
+Rotational accuracy was evidently harder to achieve in each dimension $x$, $y$ and $z$ across all object groups using the LEAP system (see tables \ref{table:rotational_deviation_cubes}, \ref{table:rotational_deviation_5stars}, \& \ref{table:rotational_deviation_6stars}).
+This is in agreement with statements by many participants by which they described that ending the \textit{bimanual CLOSE fist gestures} for rotation by opening their fists was often inaccurately detected and caused the object to rotate unexpectedly.
+This perhaps contributed to the higher error of the LEAP system in terms of in rotational placement.
+%What is more is that tracking of the VIVE during the second phase of the experiment (which is the experiment under the LEAP condition) was particularly unreliable and often presented a considerable obstacle for achieving the task.
+
+Positional accuracy did not greatly distinguish the performance within either system (see table \ref{table:positional_deviation}).
+For the Android condition there exist considerably more outliers under the distribution of positional accuracy (see figure \ref{fig:accuracy_pos_boxplot}).
+These can be explained by an occasional loss of the interactive object after clipping it out of the virtual scene.
+Such errors happened during the Android condition due to a misunderstanding of how to select and handle the axes for translation of the selected object and was sometimes irreversible without starting the experiment over.
+
+\subsection{Technical difficulties}
+While carrying out our experiments we encountered a multitude of technical issues that certainly influenced the participants' experience with the system and perhaps also their performance under both conditions.
+The worst of which was posed by the HTC Vive's tracking system which regularly lost track of the headset.
+This would result in either a momentary flickering representation/total blank out of the VR environment for participants or alternatively in a noticeable positional \textit{drift-off} of the participant relative to the the VR scene.
+In many occasions this forced us to cancel the current experiment and reschedule for a different date.
+These problems were more prevalent under the Android condition, seemingly amplified by some interference between the infrared (IR) tracking system of the VIVE and the mobile phone used for enabling touch input to the system, even though the phone was set in airplane mode throughout the experiments.
+Still, the same tracking issues were experienced under the LEAP condition too and apparently depended on the time of day and the lighting conditions in general.
+
+
+\if false
+\subsection{Qualitative}
+% All of this, if any, should be mentioned only briefly in the end of this section
+Most participants of our experiment were individuals who had very little exposure to VR beforehand.
+A few had experiences with videogames.
+Before we discuss the results of our experiment and compare the interaction methods to one another, it is important to mention some problems of the set up used.
+The primary hindrance to the experimental setup, was loss of tracking.
+This manifested in both the HMD set up as well as the usage of Leap Motion.
+It was common for the HTC Vive to lose tracking of the HMD while a user was performing the tasks of the experiment.
+The sensors would either turn off, or they were unable to sense the headset in the ‘play area’.
+As a result of this issue, the user would either see a flickering blue screen on their display while they were walking around the scene.
+Alternatively, it would just go dark causing a break in immersion.
+This loss of tracking would occur more frequently while the person performing the tasks was using the Android implementation of the task.
+This was noted by a participant as ‘Appearance of blue flash was disturbing.’.
+To combat this, the windows of the room were covered with black sheets.
+More care was taken about the lighting of the room, in hoped of it reducing the occurrence.
+The Leap Motion would also occasionally provide hurdles as it would fail to recognize the hand gestures made in front of it.
+The bimanual close-fisted rotation caused some registration errors.
+The pinch selection gesture involving two fingers would sometime register as a fist or more than one finger. The had had to be removed from the FOV of the sensor and back, to resolve this issue. 
+% I vote against this - Martin
+%Additionally, the lighting and skin color also influenced the efficiency of the Leap Motion system. (don’t need to say this do I ??)
+Discomfort was reported by only a few users, most being comfortable in the scene while wearing the headset.
+Only in one case, was the motion sickness sever enough where the participant nearly fell down on the floor.
+The case of nausea was reported by a few, though one participant mentioned ‘I usually feel very dizzy doing similar things, but not this time.’.
+Most of the discomfort mentioned by the users was primarily due to the screen flickering in and out of the scene due to the loss of registration of the device.
+Based on the survey done after the experiment, most users stated that they favored the Leap Motion based interaction method over the Android.
+Though many had complaints about the Leap Motion, its ability to track hand gestures.
+Almost everyone who participated in the experiment felt that, interacting with Leap Motion was the most fun.
+Most participants answered that they were more efficient in performing the task when using the Android implementation.
+One participant remarked ‘It felt faster (unsure if it was actually faster) to complete everything on leap, but it had less ability for accuracy and was more frustrating because the rotation was very difficult to master.’
+There were no complaints about the ergonomics of the system. Though some participants wrote in the survey that they experienced pain in their fingers as a lack of body movement. Another participant felt that looking down [into the scene] was straining on their neck. 
+The participants remarked that though the leap offered more speed, but the rotation was not accurate, or that it was difficult to master.
+
+\subsection{Quantitative}
+From the data of the positional accuracy and rotational accuracy.. 
+
+SUS scores have a range of 0 to 100. The average SUS scores are 68. If the scores are lower, the system has problems and is unusable. Good Systems usually score higher than 80 on the System Usability Scale.
+In the case of the experiments done, the Average SUS score for Android implementation was, 70.83 with a standard deviation of 16.76. For the Leap Motion, the Systems Usability Score was 61.83 with a standard deviation of 16.30.
+Based on these results, we can state that the Android based interaction method is a more usable system when compared to the Leap Motion based method. Though people mentioned that they found L ( a bell curve would be nice to have here. Its interesting that most people thought leap was better. )
+(A bell curve of what exactly? SUS score? that is somewhat conveyed in the boxplos perhaps?)
+\fi

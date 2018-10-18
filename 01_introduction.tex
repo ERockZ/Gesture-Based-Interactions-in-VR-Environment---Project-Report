@@ -1,0 +1,40 @@
+\section{Introduction}
+Arguably, one of the important aspects of user experience within any environment is the availability of convenient means of interaction with said environment. It is especially important for virtual environments in order to create a deeper sense of immersion. In real life, people often look at material objects they want to manipulate and then carry out the desired manipulation by using either their own hands or a tool of some kind. It is perhaps even more intuitive to use hands for manipulations such as positioning or rotation, unless the nature of the object makes it physically impossible. On the other hand, traditionally, interaction with virtual objects has always only been available via tools, e.g., a mouse, a joystick etc., because these objects are usually represented in 2D on a computer screen. The development of virtual reality, however, made it possible to interact with virtual objects in a 3D space, while other technology, such as eye and hand movement tracking, opened up new possibilities for how these interactions can be realised, apart from the traditional tool-based approach.
+
+It is to be noted though that this technology does not make a one-to-one transfer of our real-world interaction techniques to a virtual world possible, e.g., due to limitations of the software/hardware used as the mediator or different kinds of feedback that the user receives during their interaction in a virtual system than they would in real life. Therefore, one can pose a question whether these "natural" ways of interaction inspired by real environments would still be as intuitive and appropriate in a virtual world. It is also worth investigating which manipulation technique allows the user to be more successful while using a VR system with less effort if both the hand-movement-based and the tool-based approaches alike must first be learned by the user.
+
+The goal of this project was to implement two examples of these interaction approaches in a virtual world under the constraints of the used hardware and software and to comparatively evaluate both approaches based on a particular use case. In this report, we describe our specific realisation of the interaction techniques, explain our design choices and problems we have encountered. The use case we based our evaluation on is also illustrated here, along with the results of our study. It is important to understand that there are many criteria that have to be considered in such a comparative analysis, both objective and subjective, such as precision with which the task was accomplished, user-estimated efficiency and personal preferences, cognitive workload, learning effort etc. Due to this multitude of factors and their complex relationship with each other, it is very difficult to fully compare the two interaction approaches. The discussion section of this report addresses some of these problems and offers interpretations and critique of the study results, as well as recommendations for future work on this topic.
+
+
+
+
+
+
+
+
+% Old stuff
+\iffalse
+Lately many VR technologies such as the \textit{Microsoft Hololens} and \textit{HTC Vive} though being released relatively close after one another show a significant difference in the the type for the available user interface input.
+
+The HTC Vive comes with a pair of wireless controllers that can be tracked freely within the designated tracking area and that uses a number of buttons plus a touch surface area.
+All system interactions are mapped via some physical component which naturally provide a tactile feedback.
+Having a controler the HTC Vive is perhaps designated to be used in live action video games that require quick action input.
+A limited number of buttons makes it simple to translate each input to a specific action in the game without much ambiguity.
+% ToDo: citation needed
+
+High fidelity gesture recognition as provided by e.g. the Microsoft Hololens is capable to analyze the user's hand posture in real time.
+Through classifying a captured video stream for specific hand gestures these can be mapped to specific system interactions.
+In addition to that the Hololens uses eye tracking technology.
+Here by infering the user's position of gaze the system is able to identify elements of interest with which the user may want to interact .
+This includes the hand's orientation and relative positioning plus it's speed and velocity and supply these measurements as parameters for the input to a VR/AR system in real time.
+Hand gesture recognition is far more misclassification-ridden but allows for a more immersive feel and intuitive interaction, when appropriate gestures are mapped to trigger each action in the system.
+% ToDo: citation needed
+The difference in design choices between the two systems may to an extend reflect the latent user group and application type these devices are intended to be used with.
+
+To investigate the effect of the chosen modality we compare the user's \textit{accuracy} in achieving a predefined interaction task within a VR simulation.
+Users are bound to a specific input method (touch surface input).
+In the experiment participants are asked to perform tasks using two canonical operations (translation and rotation) of  a number of interactive objects.
+After finishing the tasks they switch to a method depending on a a different modality (hand gesture recognition) and perform the same task again.
+During the interactions we record information about the quality of interaction in terms of interaction-time and accuracy which allows us to investigate the way participants engaged with the two interface methods.
+
+\fi

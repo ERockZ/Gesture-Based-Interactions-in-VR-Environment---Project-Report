@@ -1,0 +1,71 @@
+\documentclass[a4paper, twocolumn]{article}
+%\documentclass[a4paper]{article}
+%\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+
+\usepackage[toc,page]{appendix}
+\usepackage{flafter}
+
+\usepackage{xcolor}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[section]{placeins}
+\usepackage{url}
+
+\usepackage{tabularx}
+
+\usepackage{booktabs}
+\usepackage[colorlinks=true, allcolors=magenta]{hyperref}
+
+\usepackage{sectsty}
+
+\sectionfont{\Large}
+\subsectionfont{\small}
+\subsubsectionfont{\small}
+
+
+\bibliographystyle{acm}
+\author{Thandiwe Mangana, Soham Panda, Lina Varonina, Martin Lang}
+
+\newcommand{\setupAppendixFigureLabeling}{%
+        \setcounter{table}{0}
+        \renewcommand{\thetable}{Appx\arabic{table}}%
+        \setcounter{figure}{0}
+        \renewcommand{\thefigure}{Appx\arabic{figure}}%
+}
+% returns  +/- sign
+\newcommand{\rpm}{\raisebox{.2ex}{$\scriptstyle\pm$}}
+
+\definecolor{DarkBlue}{rgb}{0.1333333333333333333333333333, 0.1921568627450980392156862745098, 0.24705882352941176470588235294118}
+\definecolor{ivory}{rgb}{0.82352941176470588235294117647059, 0.84313725490196078431372549019608, 0.82745098039215686274509803921569}
+
+\title{
+Gesture Based Interactions in VR Environment - Project Report
+}
+
+
+% for working at night comment this out ;)
+%\pagecolor{DarkBlue}
+%\color{ivory}
+
+
+%\pagenumbering{gobble}
+
+\begin{document}
+\maketitle
+
+\input{00_abstract.tex}
+\input{01_introduction.tex}
+\input{02_related_work.tex}
+\input{03_material_and_methods.tex}
+\input{04_experimental_design.tex}
+\input{05_results.tex}
+\input{06_discussion.tex}
+\input{07_conclusion.tex}
+\bibliography{vr_report.bib}
+%\clearpage
+%\input{xxx_appendix.tex}
+
+\end{document}
